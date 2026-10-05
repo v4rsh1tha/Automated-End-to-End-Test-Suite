@@ -1,0 +1,5 @@
+base\BaseTest.class
+tests\CheckoutTest.class
+tests\LoginTest.class
+tests\DatabaseValidationTest.class
+tests\InventoryTest.class

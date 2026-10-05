@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-11T19:54:19 IST" name="SauceDemo Automation Suite" finished-at="2026-07-11T19:55:26 IST" duration-ms="66815">
+    <groups>
+    </groups>
+    <test started-at="2026-07-11T19:54:19 IST" name="Login Tests" finished-at="2026-07-11T19:54:54 IST" duration-ms="34902">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:19 IST" name="setUp" finished-at="2026-07-11T19:54:26 IST" duration-ms="7271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidCredentialsAreRejected(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:26 IST" name="invalidCredentialsAreRejected" description="Invalid credential combinations should all be rejected" data-provider="invalidCredentials" finished-at="2026-07-11T19:54:28 IST" duration-ms="1503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsAreRejected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:28 IST" name="tearDown" finished-at="2026-07-11T19:54:29 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:29 IST" name="setUp" finished-at="2026-07-11T19:54:31 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidCredentialsAreRejected(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:31 IST" name="invalidCredentialsAreRejected" description="Invalid credential combinations should all be rejected" data-provider="invalidCredentials" finished-at="2026-07-11T19:54:33 IST" duration-ms="1748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsAreRejected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:33 IST" name="tearDown" finished-at="2026-07-11T19:54:34 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:34 IST" name="setUp" finished-at="2026-07-11T19:54:36 IST" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidCredentialsAreRejected(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:36 IST" name="invalidCredentialsAreRejected" description="Invalid credential combinations should all be rejected" data-provider="invalidCredentials" finished-at="2026-07-11T19:54:37 IST" duration-ms="1115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsAreRejected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:37 IST" name="tearDown" finished-at="2026-07-11T19:54:39 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:39 IST" name="setUp" finished-at="2026-07-11T19:54:43 IST" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidCredentialsAreRejected(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:43 IST" name="invalidCredentialsAreRejected" description="Invalid credential combinations should all be rejected" data-provider="invalidCredentials" finished-at="2026-07-11T19:54:44 IST" duration-ms="1283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsAreRejected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:44 IST" name="tearDown" finished-at="2026-07-11T19:54:45 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:45 IST" name="setUp" finished-at="2026-07-11T19:54:48 IST" duration-ms="2948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedOutUserSeesErrorMessage()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:48 IST" name="lockedOutUserSeesErrorMessage" description="Locked-out user should see an error and stay on the login page" finished-at="2026-07-11T19:54:49 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUserSeesErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:49 IST" name="tearDown" finished-at="2026-07-11T19:54:49 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:49 IST" name="setUp" finished-at="2026-07-11T19:54:52 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginNavigatesToInventoryPage()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:52 IST" name="validLoginNavigatesToInventoryPage" description="Valid credentials should land the user on the inventory page" finished-at="2026-07-11T19:54:53 IST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginNavigatesToInventoryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4690b489]" started-at="2026-07-11T19:54:53 IST" name="tearDown" finished-at="2026-07-11T19:54:54 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2026-07-11T19:54:54 IST" name="Inventory and Cart Tests" finished-at="2026-07-11T19:55:11 IST" duration-ms="16955">
+      <class name="tests.InventoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:54:54 IST" name="setUp" finished-at="2026-07-11T19:54:57 IST" duration-ms="2882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginAsStandardUser()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:54:57 IST" name="loginAsStandardUser" finished-at="2026-07-11T19:54:58 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method signature="addingMultipleItemsUpdatesCartBadge()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:54:58 IST" name="addingMultipleItemsUpdatesCartBadge" description="Adding multiple items should update the cart badge correctly" finished-at="2026-07-11T19:54:59 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingMultipleItemsUpdatesCartBadge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:54:59 IST" name="tearDown" finished-at="2026-07-11T19:55:00 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:55:00 IST" name="setUp" finished-at="2026-07-11T19:55:03 IST" duration-ms="3183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginAsStandardUser()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:55:03 IST" name="loginAsStandardUser" finished-at="2026-07-11T19:55:04 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method signature="addingSingleItemUpdatesCartBadge()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:55:04 IST" name="addingSingleItemUpdatesCartBadge" description="Adding a single item should update the cart badge to 1" finished-at="2026-07-11T19:55:05 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingSingleItemUpdatesCartBadge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:55:05 IST" name="tearDown" finished-at="2026-07-11T19:55:06 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:55:06 IST" name="setUp" finished-at="2026-07-11T19:55:08 IST" duration-ms="2743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginAsStandardUser()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:55:08 IST" name="loginAsStandardUser" finished-at="2026-07-11T19:55:09 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method signature="cartPageReflectsAddedItems()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:55:09 IST" name="cartPageReflectsAddedItems" description="Cart page should list the same number of items that were added" finished-at="2026-07-11T19:55:10 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageReflectsAddedItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InventoryTest@291ae]" started-at="2026-07-11T19:55:10 IST" name="tearDown" finished-at="2026-07-11T19:55:11 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.InventoryTest -->
+    </test> <!-- Inventory and Cart Tests -->
+    <test started-at="2026-07-11T19:55:11 IST" name="Checkout Tests" finished-at="2026-07-11T19:55:25 IST" duration-ms="14079">
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@6973b51b]" started-at="2026-07-11T19:55:11 IST" name="setUp" finished-at="2026-07-11T19:55:14 IST" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutBlocksOnMissingInfo()[pri:0, instance:tests.CheckoutTest@6973b51b]" started-at="2026-07-11T19:55:14 IST" name="checkoutBlocksOnMissingInfo" description="Checkout should block progress when required customer info is missing" finished-at="2026-07-11T19:55:17 IST" duration-ms="3539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutBlocksOnMissingInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@6973b51b]" started-at="2026-07-11T19:55:17 IST" name="tearDown" finished-at="2026-07-11T19:55:18 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@6973b51b]" started-at="2026-07-11T19:55:18 IST" name="setUp" finished-at="2026-07-11T19:55:21 IST" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeCheckoutFlowSucceeds()[pri:0, instance:tests.CheckoutTest@6973b51b]" started-at="2026-07-11T19:55:21 IST" name="completeCheckoutFlowSucceeds" description="Full checkout flow: login -&gt; add to cart -&gt; checkout -&gt; confirmation" finished-at="2026-07-11T19:55:24 IST" duration-ms="3261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutFlowSucceeds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@6973b51b]" started-at="2026-07-11T19:55:24 IST" name="tearDown" finished-at="2026-07-11T19:55:25 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- Checkout Tests -->
+    <test started-at="2026-07-11T19:55:25 IST" name="Database Validation Tests" finished-at="2026-07-11T19:55:26 IST" duration-ms="779">
+      <class name="tests.DatabaseValidationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DatabaseValidationTest@59fd97a8]" started-at="2026-07-11T19:55:25 IST" name="setUp" finished-at="2026-07-11T19:55:26 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cancelledOrderCanBeDeleted()[pri:0, instance:tests.DatabaseValidationTest@59fd97a8]" started-at="2026-07-11T19:55:26 IST" name="cancelledOrderCanBeDeleted" description="Cancelled orders should be removable from the orders table (CRUD: Delete)" finished-at="2026-07-11T19:55:26 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelledOrderCanBeDeleted -->
+        <test-method signature="orderStatusUpdatesAfterConfirmation()[pri:0, instance:tests.DatabaseValidationTest@59fd97a8]" started-at="2026-07-11T19:55:26 IST" name="orderStatusUpdatesAfterConfirmation" description="Order status should update correctly after checkout confirmation (CRUD: Update)" finished-at="2026-07-11T19:55:26 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderStatusUpdatesAfterConfirmation -->
+        <test-method signature="orderTotalMatchesProductPriceTimesQuantity()[pri:0, instance:tests.DatabaseValidationTest@59fd97a8]" started-at="2026-07-11T19:55:26 IST" name="orderTotalMatchesProductPriceTimesQuantity" description="Order total should equal product price * quantity (JOIN validation)" finished-at="2026-07-11T19:55:26 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderTotalMatchesProductPriceTimesQuantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DatabaseValidationTest@59fd97a8]" started-at="2026-07-11T19:55:26 IST" name="tearDown" finished-at="2026-07-11T19:55:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DatabaseValidationTest -->
+    </test> <!-- Database Validation Tests -->
+  </suite> <!-- SauceDemo Automation Suite -->
+</testng-results>
